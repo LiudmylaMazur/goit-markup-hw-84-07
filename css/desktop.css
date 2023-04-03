@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .header {
+    padding: 24px 156px;
+  }
+  .section-main {
+    padding: 472px 188px;
+  }
+  .section-first {
+    padding: 156px 120px;
+  }
+  .section-what {
+    padding: 156px 120px;
+  }
+  .section-our {
+    padding: 156px 120px;
+  }
+  .customers-section {
+    padding: 156px 120px;
+  }
+}

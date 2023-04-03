@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+  .header {
+    padding: 0;
+  }
+
+  .section-main {
+    padding: 54px 112px;
+  }
+  .section-first {
+    padding: 16px 96px;
+  }
+  .header-list,
+  .section-what,
+  .first-link {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .section-our {
+    padding: 82px 96px;
+  }
+  .customers-section {
+    padding: 16px 96px;
+  }
+}

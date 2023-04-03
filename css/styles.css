@@ -56,7 +56,7 @@ a {
   color: inherit;
 }
 .container {
-  width: 1158px;
+  width: 100%px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -104,7 +104,9 @@ a {
 .header-list {
   gap: 40px;
 }
-
+.header-item-list {
+  display: flex;
+}
 .header-item {
 }
 .header-link {
@@ -809,4 +811,7 @@ a {
 .footer-input {
   width: 264px;
   height: 40px;
+}
+
+@media screen and (max-width: 1024px) {
 }
